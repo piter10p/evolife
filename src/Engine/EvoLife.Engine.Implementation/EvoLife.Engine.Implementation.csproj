@@ -4,4 +4,8 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\EvoLife.Engine.Core\EvoLife.Engine.Core.csproj" />
+    </ItemGroup>
+
 </Project>
