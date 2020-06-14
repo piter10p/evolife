@@ -9,6 +9,8 @@ namespace EvoLife.Engine.Core
     /// </summary>
     public interface IEvoLifeEngine
     {
-        void Update(TimeSpan deltaTime);
+        uint Time { get; }
+        
+        IEnumerable<ICell> Update();
     }
 }

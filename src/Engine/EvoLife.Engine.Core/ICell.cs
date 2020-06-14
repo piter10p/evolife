@@ -4,5 +4,7 @@
     {
         Position Position { get; }
         Genome Genome { get; }
+
+        void Move();
     }
 }
