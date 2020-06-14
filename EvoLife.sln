@@ -8,6 +8,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoLife.Engine.Core", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoLife.Engine.Implementation", "src\Engine\EvoLife.Engine.Implementation\EvoLife.Engine.Implementation.csproj", "{2DEE2B2A-90E4-4161-8E52-7D3B39D8B931}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DF4ACA4C-BD84-40B6-8BAF-8D01DEBB2972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{C89C5878-45CD-4DB4-9F9C-41B4CDFB4B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoLife.Engine.Core.Tests", "tests\Engine\EvoLife.Engine.Core.Tests\EvoLife.Engine.Core.Tests.csproj", "{1A423BDD-9AFD-46A2-997F-9E77446BB096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvoLife.Engine.Implementation.Tests", "tests\Engine\EvoLife.Engine.Implementation.Tests\EvoLife.Engine.Implementation.Tests.csproj", "{53659541-73E5-43EE-B454-35BB24230189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +25,9 @@ Global
 		{99BEFACD-2CC0-414F-9317-3C49769B9790} = {91A0E07A-0995-4F2B-8F38-5D675FEF172E}
 		{F4CA6424-0425-45BC-83B9-E621BA3DB403} = {99BEFACD-2CC0-414F-9317-3C49769B9790}
 		{2DEE2B2A-90E4-4161-8E52-7D3B39D8B931} = {99BEFACD-2CC0-414F-9317-3C49769B9790}
+		{C89C5878-45CD-4DB4-9F9C-41B4CDFB4B48} = {DF4ACA4C-BD84-40B6-8BAF-8D01DEBB2972}
+		{1A423BDD-9AFD-46A2-997F-9E77446BB096} = {C89C5878-45CD-4DB4-9F9C-41B4CDFB4B48}
+		{53659541-73E5-43EE-B454-35BB24230189} = {C89C5878-45CD-4DB4-9F9C-41B4CDFB4B48}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F4CA6424-0425-45BC-83B9-E621BA3DB403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,5 +38,13 @@ Global
 		{2DEE2B2A-90E4-4161-8E52-7D3B39D8B931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DEE2B2A-90E4-4161-8E52-7D3B39D8B931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DEE2B2A-90E4-4161-8E52-7D3B39D8B931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A423BDD-9AFD-46A2-997F-9E77446BB096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A423BDD-9AFD-46A2-997F-9E77446BB096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A423BDD-9AFD-46A2-997F-9E77446BB096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A423BDD-9AFD-46A2-997F-9E77446BB096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53659541-73E5-43EE-B454-35BB24230189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53659541-73E5-43EE-B454-35BB24230189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53659541-73E5-43EE-B454-35BB24230189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53659541-73E5-43EE-B454-35BB24230189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
